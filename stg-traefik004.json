@@ -1,0 +1,234 @@
+{
+"_index": "stg-traefik004.phonepe.nb6",
+"_type": "_doc",
+"_id": "1",
+"_version": 4,
+"_score": 1,
+"_source": {
+"serviceName": "stg-traefik004.phonepe.nb6",
+"Dependency": [
+{
+"traefik 20922": {
+"SourcePort": "20922",
+"destination": [
+{
+"DestAddr": "stg-appmesosm002-stg-clouddb515.phonepe.nb6",
+"DestPort": [
+"http-alt"
+]
+}
+]
+}
+}
+,
+{
+"riemann-health 23254": {
+"SourcePort": "23254",
+"destination": [
+{
+"DestAddr": "stg-riemann001-stg-clouddb501.phonepe.nb6",
+"DestPort": [
+"5555"
+]
+}
+]
+}
+}
+,
+{
+"traefik 33950": {
+"SourcePort": "33950",
+"destination": [
+{
+"DestAddr": "stg-mesoss001.phonepe.nb6",
+"DestPort": [
+"31791"
+]
+}
+]
+}
+}
+,
+{
+"traefik 24708": {
+"SourcePort": "24708",
+"destination": [
+{
+"DestAddr": "stg-mesoss018.phonepe.nb6",
+"DestPort": [
+"31440"
+]
+}
+]
+}
+}
+,
+{
+"bgpd 63698": {
+"SourcePort": "63698",
+"destination": [
+{
+"DestAddr": "172.24.xxx.xxx",
+"DestPort": [
+"bgp"
+]
+}
+]
+}
+}
+,
+{
+"rsyslogd 22864": {
+"SourcePort": "22864",
+"destination": [
+{
+"DestAddr": "cor-rsyslog100-cor-infra002.phonepe.nb1",
+"DestPort": [
+"shell"
+]
+}
+]
+}
+}
+,
+{
+"traefik 61676": {
+"SourcePort": "61676",
+"destination": [
+{
+"DestAddr": "stg-appmesosm001-stg-clouddb512.phonepe.nb6",
+"DestPort": [
+"http-alt"
+]
+}
+]
+}
+}
+,
+{
+"salt-minion 50304": {
+"SourcePort": "50304",
+"destination": [
+{
+"DestAddr": "stg-saltsyndic003-stg-clouddb530.phonepe.nb6",
+"DestPort": [
+"4505"
+]
+}
+]
+}
+}
+,
+{
+"traefik 33948": {
+"SourcePort": "33948",
+"destination": [
+{
+"DestAddr": "stg-mesoss001.phonepe.nb6",
+"DestPort": [
+"31791"
+]
+}
+]
+}
+}
+,
+{
+"traefik 33936": {
+"SourcePort": "33936",
+"destination": [
+{
+"DestAddr": "stg-mesoss001.phonepe.nb6",
+"DestPort": [
+"31791"
+]
+}
+]
+}
+}
+,
+{
+"traefik 34014": {
+"SourcePort": "34014",
+"destination": [
+{
+"DestAddr": "stg-mesoss001.phonepe.nb6",
+"DestPort": [
+"31791"
+]
+}
+]
+}
+}
+,
+{
+"rsyslogd 22862": {
+"SourcePort": "22862",
+"destination": [
+{
+"DestAddr": "cor-rsyslog100-cor-infra002.phonepe.nb1",
+"DestPort": [
+"shell"
+]
+}
+]
+}
+}
+,
+{
+"bgpd 21800": {
+"SourcePort": "21800",
+"destination": [
+{
+"DestAddr": "172.24.xxx.xxx",
+"DestPort": [
+"bgp"
+]
+}
+]
+}
+}
+,
+{
+"traefik http": {
+"SourcePort": "http",
+"destination": [
+{
+"DestAddr": "stg-nginx400-stg-clouddb535.phonepe.nb6",
+"DestPort": [
+"54836"
+,
+"54764"
+]
+}
+,
+{
+"DestAddr": "stg-nginx101-stg-clouddb531.phonepe.nb6",
+"DestPort": [
+"43604"
+,
+"43266"
+]
+}
+,
+{
+"DestAddr": "stg-nginx102-stg-clouddb528.phonepe.nb6",
+"DestPort": [
+"14160"
+,
+"14012"
+]
+}
+,
+{
+"DestAddr": "stg-nginx103-stg-clouddb530.phonepe.nb6",
+"DestPort": [
+"44064"
+]
+}
+]
+}
+}
+]
+}
+}

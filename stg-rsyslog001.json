@@ -1,0 +1,200 @@
+{
+    "_index": "stg-rsyslog001.phonepe.nb6",
+    "_type": "_doc",
+    "_id": "1",
+    "_version": 3,
+    "_score": 1,
+    "_source": {
+    "serviceName": "stg-rsyslog001.phonepe.nb6",
+    "Dependency": [
+    {
+    "rsyslogd shell": {
+    "SourcePort": "shell",
+    "destination": [
+    {
+    "DestAddr": "stg-nginx103-stg-clouddb530.phonepe.nb6",
+    "DestPort": [
+    "10288"
+    ]
+    }
+    ,
+    {
+    "DestAddr": "stg-nginx301-stg-clouddb540.phonepe.nb6",
+    "DestPort": [
+    "23872"
+    ]
+    }
+    ,
+    {
+    "DestAddr": "stg-internalproxy001-stg-clouddb535.phonepe.nb6",
+    "DestPort": [
+    "42082"
+    ]
+    }
+    ,
+    {
+    "DestAddr": "stg-obnginx001-stg-clouddb504.phonepe.nb6",
+    "DestPort": [
+    "17438"
+    ]
+    }
+    ,
+    {
+    "DestAddr": "stg-nginx102-stg-clouddb528.phonepe.nb6",
+    "DestPort": [
+    "43850"
+    ]
+    }
+    ,
+    {
+    "DestAddr": "stg-nginx302-stg-clouddb515.phonepe.nb6",
+    "DestPort": [
+    "29734"
+    ]
+    }
+    ,
+    {
+    "DestAddr": "stg-internalproxy002-stg-clouddb538.phonepe.nb6",
+    "DestPort": [
+    "46702"
+    ]
+    }
+    ,
+    {
+    "DestAddr": "stg-obnginx002-stg-clouddb526.phonepe.nb6",
+    "DestPort": [
+    "59008"
+    ]
+    }
+    ,
+    {
+    "DestAddr": "stg-nginx400-stg-clouddb535.phonepe.nb6",
+    "DestPort": [
+    "57664"
+    ]
+    }
+    ,
+    {
+    "DestAddr": "stg-nginx101-stg-clouddb531.phonepe.nb6",
+    "DestPort": [
+    "17310"
+    ]
+    }
+    ]
+    }
+    }
+    ,
+    {
+    "bgpd 29288": {
+    "SourcePort": "29288",
+    "destination": [
+    {
+    "DestAddr": "172.24.xxx.xxx",
+    "DestPort": [
+    "bgp"
+    ]
+    }
+    ]
+    }
+    }
+    ,
+    {
+    "ossec-agentd 19646": {
+    "SourcePort": "19646",
+    "destination": [
+    {
+    "DestAddr": "10.56.xxx.xxx",
+    "DestPort": [
+    "1514"
+    ]
+    }
+    ]
+    }
+    }
+    ,
+    {
+    "salt-minion 41244": {
+    "SourcePort": "41244",
+    "destination": [
+    {
+    "DestAddr": "stg-saltsyndic003-stg-clouddb530.phonepe.nb6",
+    "DestPort": [
+    "4505"
+    ]
+    }
+    ]
+    }
+    }
+    ,
+    {
+    "promtail-linux- 19890": {
+    "SourcePort": "19890",
+    "destination": [
+    {
+    "DestAddr": "stg-loki001-stg-clouddb558.phonepe.nb6",
+    "DestPort": [
+    "3100"
+    ]
+    }
+    ]
+    }
+    }
+    ,
+    {
+    "others shell": {
+    "SourcePort": "shell",
+    "destination": [
+    {
+    "DestAddr": "stg-galerapp102-stg-clouddb545.phonepe.nb6",
+    "DestPort": [
+    "44170"
+    ]
+    }
+    ]
+    }
+    }
+    ,
+    {
+    "bgpd 61488": {
+    "SourcePort": "61488",
+    "destination": [
+    {
+    "DestAddr": "172.24.xxx.xxx",
+    "DestPort": [
+    "bgp"
+    ]
+    }
+    ]
+    }
+    }
+    ,
+    {
+    "python3 38240": {
+    "SourcePort": "38240",
+    "destination": [
+    {
+    "DestAddr": "stg-saltsyndic003-stg-clouddb530.phonepe.nb6",
+    "DestPort": [
+    "4506"
+    ]
+    }
+    ]
+    }
+    }
+    ,
+    {
+    "riemann-health 48812": {
+    "SourcePort": "48812",
+    "destination": [
+    {
+    "DestAddr": "stg-riemann001-stg-clouddb501.phonepe.nb6",
+    "DestPort": [
+    "5555"
+    ]
+    }
+    ]
+    }
+    }
+    ]
+    }
+    }
