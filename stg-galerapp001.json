@@ -1,0 +1,217 @@
+{
+"_index": "stg-galerapp001.phonepe.nb6",
+"_type": "_doc",
+"_id": "1",
+"_version": 4,
+"_score": 1,
+"_source": {
+"serviceName": "stg-galerapp001.phonepe.nb6",
+"Dependency": [
+{
+"bgpd 10852": {
+"SourcePort": "10852",
+"destination": [
+{
+"DestAddr": "172.24.xxx.xxx",
+"DestPort": [
+"bgp"
+]
+}
+]
+}
+}
+,
+{
+"mariadbd mysql": {
+"SourcePort": "mysql",
+"destination": [
+{
+"DestAddr": "stg-mesoss003.phonepe.nb6",
+"DestPort": [
+"39600"
+,
+"39606"
+,
+"39596"
+,
+"39608"
+,
+"39610"
+,
+"39612"
+,
+"39604"
+,
+"39602"
+,
+"47048"
+]
+}
+,
+{
+"DestAddr": "10.56.xxx.xxx",
+"DestPort": [
+"57213"
+,
+"56941"
+,
+"56940"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss006.phonepe.nb6",
+"DestPort": [
+"52402"
+,
+"52400"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss010.phonepe.nb6",
+"DestPort": [
+"53812"
+,
+"53810"
+]
+}
+]
+}
+}
+,
+{
+"mariadbd 4567": {
+"SourcePort": "4567",
+"destination": [
+{
+"DestAddr": "stg-galerapp002-stg-clouddb532.phonepe.nb6",
+"DestPort": [
+"46424"
+]
+}
+,
+{
+"DestAddr": "stg-galerapp003-stg-clouddb534.phonepe.nb6",
+"DestPort": [
+"36078"
+]
+}
+]
+}
+}
+,
+{
+"rsyslogd 14172": {
+"SourcePort": "14172",
+"destination": [
+{
+"DestAddr": "stg-rsyslog001-stg-clouddb549.phonepe.nb6",
+"DestPort": [
+"shell"
+]
+}
+]
+}
+}
+,
+{
+"salt-call 48928": {
+"SourcePort": "48928",
+"destination": [
+{
+"DestAddr": "stg-saltsyndic003-stg-clouddb530.phonepe.nb6",
+"DestPort": [
+"4506"
+]
+}
+]
+}
+}
+,
+{
+"riemann-health 28746": {
+"SourcePort": "28746",
+"destination": [
+{
+"DestAddr": "stg-riemann001-stg-clouddb501.phonepe.nb6",
+"DestPort": [
+"5555"
+]
+}
+]
+}
+}
+,
+{
+"python3 48830": {
+"SourcePort": "48830",
+"destination": [
+{
+"DestAddr": "stg-saltsyndic003-stg-clouddb530.phonepe.nb6",
+"DestPort": [
+"4506"
+]
+}
+]
+}
+}
+,
+{
+"salt-minion 64580": {
+"SourcePort": "64580",
+"destination": [
+{
+"DestAddr": "stg-saltsyndic003-stg-clouddb530.phonepe.nb6",
+"DestPort": [
+"4505"
+]
+}
+]
+}
+}
+,
+{
+"bgpd 54044": {
+"SourcePort": "54044",
+"destination": [
+{
+"DestAddr": "172.24.xxx.xxx",
+"DestPort": [
+"bgp"
+]
+}
+]
+}
+}
+,
+{
+"python3 48966": {
+"SourcePort": "48966",
+"destination": [
+{
+"DestAddr": "stg-saltsyndic003-stg-clouddb530.phonepe.nb6",
+"DestPort": [
+"4506"
+]
+}
+]
+}
+}
+,
+{
+"python3 48910": {
+"SourcePort": "48910",
+"destination": [
+{
+"DestAddr": "stg-saltsyndic003-stg-clouddb530.phonepe.nb6",
+"DestPort": [
+"4506"
+]
+}
+]
+}
+}
+]
+}
+}

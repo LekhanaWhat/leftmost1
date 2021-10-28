@@ -1,0 +1,252 @@
+{
+"_index": "stg-traefik003.phonepe.nb6",
+"_type": "_doc",
+"_id": "1",
+"_version": 4,
+"_score": 1,
+"_source": {
+"serviceName": "stg-traefik003.phonepe.nb6",
+"Dependency": [
+{
+"traefik 15284": {
+"SourcePort": "15284",
+"destination": [
+{
+"DestAddr": "stg-mesoss001.phonepe.nb6",
+"DestPort": [
+"31791"
+]
+}
+]
+}
+}
+,
+{
+"traefik 33698": {
+"SourcePort": "33698",
+"destination": [
+{
+"DestAddr": "stg-mesoss014.phonepe.nb6",
+"DestPort": [
+"31578"
+]
+}
+]
+}
+}
+,
+{
+"traefik 14394": {
+"SourcePort": "14394",
+"destination": [
+{
+"DestAddr": "stg-mesoss001.phonepe.nb6",
+"DestPort": [
+"31791"
+]
+}
+]
+}
+}
+,
+{
+"traefik 36926": {
+"SourcePort": "36926",
+"destination": [
+{
+"DestAddr": "stg-mesoss018.phonepe.nb6",
+"DestPort": [
+"31440"
+]
+}
+]
+}
+}
+,
+{
+"bgpd 41426": {
+"SourcePort": "41426",
+"destination": [
+{
+"DestAddr": "172.24.xxx.xxx",
+"DestPort": [
+"bgp"
+]
+}
+]
+}
+}
+,
+{
+"traefik 15290": {
+"SourcePort": "15290",
+"destination": [
+{
+"DestAddr": "stg-mesoss001.phonepe.nb6",
+"DestPort": [
+"31791"
+]
+}
+]
+}
+}
+,
+{
+"traefik 15168": {
+"SourcePort": "15168",
+"destination": [
+{
+"DestAddr": "stg-mesoss001.phonepe.nb6",
+"DestPort": [
+"31791"
+]
+}
+]
+}
+}
+,
+{
+"traefik 40634": {
+"SourcePort": "40634",
+"destination": [
+{
+"DestAddr": "stg-appmesosm002-stg-clouddb515.phonepe.nb6",
+"DestPort": [
+"http-alt"
+]
+}
+]
+}
+}
+,
+{
+"riemann-health 36226": {
+"SourcePort": "36226",
+"destination": [
+{
+"DestAddr": "stg-riemann001-stg-clouddb501.phonepe.nb6",
+"DestPort": [
+"5555"
+]
+}
+]
+}
+}
+,
+{
+"bgpd 35810": {
+"SourcePort": "35810",
+"destination": [
+{
+"DestAddr": "172.24.xxx.xxx",
+"DestPort": [
+"bgp"
+]
+}
+]
+}
+}
+,
+{
+"traefik 50418": {
+"SourcePort": "50418",
+"destination": [
+{
+"DestAddr": "stg-appmesosm001-stg-clouddb512.phonepe.nb6",
+"DestPort": [
+"http-alt"
+]
+}
+]
+}
+}
+,
+{
+"salt-minion 42944": {
+"SourcePort": "42944",
+"destination": [
+{
+"DestAddr": "stg-saltsyndic003-stg-clouddb530.phonepe.nb6",
+"DestPort": [
+"4505"
+]
+}
+]
+}
+}
+,
+{
+"python3 23192": {
+"SourcePort": "23192",
+"destination": [
+{
+"DestAddr": "stg-saltsyndic001-stg-clouddb532.phonepe.nb6",
+"DestPort": [
+"4506"
+]
+}
+]
+}
+}
+,
+{
+"traefik http": {
+"SourcePort": "http",
+"destination": [
+{
+"DestAddr": "stg-internalproxy001-stg-clouddb535.phonepe.nb6",
+"DestPort": [
+"13282"
+,
+"12316"
+,
+"13596"
+]
+}
+,
+{
+"DestAddr": "stg-nginx103-stg-clouddb530.phonepe.nb6",
+"DestPort": [
+"57102"
+,
+"56634"
+]
+}
+,
+{
+"DestAddr": "stg-nginx101-stg-clouddb531.phonepe.nb6",
+"DestPort": [
+"29866"
+,
+"29872"
+]
+}
+,
+{
+"DestAddr": "stg-nginx400-stg-clouddb535.phonepe.nb6",
+"DestPort": [
+"30844"
+]
+}
+,
+{
+"DestAddr": "stg-internalproxy002-stg-clouddb538.phonepe.nb6",
+"DestPort": [
+"19686"
+]
+}
+,
+{
+"DestAddr": "stg-nginx102-stg-clouddb528.phonepe.nb6",
+"DestPort": [
+"30654"
+,
+"30656"
+]
+}
+]
+}
+}
+]
+}
+}

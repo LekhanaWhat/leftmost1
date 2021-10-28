@@ -1,0 +1,573 @@
+{
+"_index": "stg-aerospikepp302.phonepe.nb6",
+"_type": "_doc",
+"_id": "1",
+"_version": 3,
+"_score": 1,
+"_source": {
+"serviceName": "stg-aerospikepp302.phonepe.nb6",
+"Dependency": [
+{
+"asd 3000": {
+"SourcePort": "3000",
+"destination": [
+{
+"DestAddr": "stg-mesoss013.phonepe.nb6",
+"DestPort": [
+"40014"
+]
+}
+,
+{
+"DestAddr": "uat-mesoss102.phonepe.nb3",
+"DestPort": [
+"56490"
+,
+"47834"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss005.phonepe.nb6",
+"DestPort": [
+"35706"
+,
+"35158"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss006.phonepe.nb6",
+"DestPort": [
+"52868"
+,
+"49078"
+,
+"53028"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"57044"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss021.phonepe.nb6",
+"DestPort": [
+"60244"
+,
+"44754"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss023.phonepe.nb6",
+"DestPort": [
+"46154"
+,
+"45950"
+]
+}
+,
+{
+"DestAddr": "10.22.xxx.xxx",
+"DestPort": [
+"53705"
+,
+"53703"
+,
+"53047"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss024.phonepe.nb6",
+"DestPort": [
+"32860"
+,
+"55292"
+]
+}
+,
+{
+"DestAddr": "stg-aerospike112.phonepe.nb6",
+"DestPort": [
+"63050"
+]
+}
+,
+{
+"DestAddr": "stg-aerospike111.phonepe.nb6",
+"DestPort": [
+"45830"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss009.phonepe.nb6",
+"DestPort": [
+"53626"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss018.phonepe.nb6",
+"DestPort": [
+"46296"
+]
+}
+,
+{
+"DestAddr": "stg-aerospike113.phonepe.nb6",
+"DestPort": [
+"22076"
+]
+}
+]
+}
+}
+,
+{
+"asd 3001": {
+"SourcePort": "3001",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp303.phonepe.nb6",
+"DestPort": [
+"52012"
+,
+"52036"
+,
+"52030"
+,
+"52014"
+,
+"52000"
+,
+"52020"
+,
+"52010"
+,
+"52004"
+,
+"52016"
+,
+"52032"
+]
+}
+,
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"56040"
+,
+"56144"
+,
+"55898"
+,
+"55900"
+,
+"55980"
+,
+"55906"
+,
+"55912"
+,
+"55896"
+,
+"55908"
+,
+"55914"
+,
+"55894"
+,
+"55904"
+]
+}
+]
+}
+}
+,
+{
+"asd 56326": {
+"SourcePort": "56326",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 23120": {
+"SourcePort": "23120",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp303.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 56334": {
+"SourcePort": "56334",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 23128": {
+"SourcePort": "23128",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp303.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 23186": {
+"SourcePort": "23186",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp303.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 23190": {
+"SourcePort": "23190",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp303.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"bgpd 58586": {
+"SourcePort": "58586",
+"destination": [
+{
+"DestAddr": "172.24.xxx.xxx",
+"DestPort": [
+"bgp"
+]
+}
+]
+}
+}
+,
+{
+"asd 56338": {
+"SourcePort": "56338",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 56302": {
+"SourcePort": "56302",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 3002": {
+"SourcePort": "3002",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"16076"
+]
+}
+]
+}
+}
+,
+{
+"asd 23124": {
+"SourcePort": "23124",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp303.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 56312": {
+"SourcePort": "56312",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 56322": {
+"SourcePort": "56322",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 56286": {
+"SourcePort": "56286",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 56320": {
+"SourcePort": "56320",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"bgpd 26528": {
+"SourcePort": "26528",
+"destination": [
+{
+"DestAddr": "172.24.xxx.xxx",
+"DestPort": [
+"bgp"
+]
+}
+]
+}
+}
+,
+{
+"asd 23126": {
+"SourcePort": "23126",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp303.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"riemann-health 46252": {
+"SourcePort": "46252",
+"destination": [
+{
+"DestAddr": "stg-riemann001-stg-clouddb501.phonepe.nb6",
+"DestPort": [
+"5555"
+]
+}
+]
+}
+}
+,
+{
+"python3 55198": {
+"SourcePort": "55198",
+"destination": [
+{
+"DestAddr": "stg-saltsyndic002-stg-clouddb533.phonepe.nb6",
+"DestPort": [
+"4506"
+]
+}
+]
+}
+}
+,
+{
+"asd 23188": {
+"SourcePort": "23188",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp303.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 56288": {
+"SourcePort": "56288",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"python3 55200": {
+"SourcePort": "55200",
+"destination": [
+{
+"DestAddr": "stg-saltsyndic002-stg-clouddb533.phonepe.nb6",
+"DestPort": [
+"4506"
+]
+}
+]
+}
+}
+,
+{
+"asd 56330": {
+"SourcePort": "56330",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 56328": {
+"SourcePort": "56328",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 51504": {
+"SourcePort": "51504",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp303.phonepe.nb6",
+"DestPort": [
+"3002"
+]
+}
+]
+}
+}
+,
+{
+"asd 23138": {
+"SourcePort": "23138",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp303.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+,
+{
+"asd 56306": {
+"SourcePort": "56306",
+"destination": [
+{
+"DestAddr": "stg-aerospikepp301.phonepe.nb6",
+"DestPort": [
+"3001"
+]
+}
+]
+}
+}
+]
+}
+}

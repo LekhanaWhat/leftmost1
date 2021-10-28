@@ -1,0 +1,967 @@
+{
+"_index": "stg-mesoss016.phonepe.nb6",
+"_type": "_doc",
+"_id": "1",
+"_version": 3,
+"_score": 1,
+"_source": {
+"serviceName": "stg-mesoss016.phonepe.nb6",
+"Dependency": [
+{
+"mesos-docker-ex 34453": {
+"SourcePort": "34453",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"41840"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave enbd-cstatd": {
+"SourcePort": "enbd-cstatd",
+"destination": [
+{
+"DestAddr": "10.22.xxx.xxx",
+"DestPort": [
+"50988"
+,
+"57423"
+,
+"53654"
+,
+"59576"
+,
+"51051"
+,
+"59809"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"12602"
+,
+"12516"
+,
+"42940"
+,
+"42798"
+,
+"41734"
+,
+"65082"
+,
+"14368"
+,
+"41738"
+,
+"10246"
+,
+"12522"
+,
+"16586"
+,
+"56608"
+,
+"53296"
+,
+"50850"
+,
+"12866"
+,
+"13024"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss015.phonepe.nb6",
+"DestPort": [
+"49134"
+,
+"49152"
+]
+}
+,
+{
+"DestAddr": "cor-vpnfw101-cor-infra004.phonepe.nb1",
+"DestPort": [
+"64227"
+,
+"64057"
+,
+"50762"
+,
+"50763"
+,
+"63468"
+,
+"55283"
+,
+"59636"
+,
+"59240"
+,
+"59635"
+,
+"59246"
+]
+}
+,
+{
+"DestAddr": "stg-appmesosm001-stg-clouddb512.phonepe.nb6",
+"DestPort": [
+"42212"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss019.phonepe.nb6",
+"DestPort": [
+"57314"
+]
+}
+,
+{
+"DestAddr": "stg-mesoss017.phonepe.nb6",
+"DestPort": [
+"58378"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 40628": {
+"SourcePort": "40628",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"13203"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 12516": {
+"SourcePort": "12516",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 31171": {
+"SourcePort": "31171",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"40010"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 13203": {
+"SourcePort": "13203",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"40628"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 54830": {
+"SourcePort": "54830",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"20843"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 53296": {
+"SourcePort": "53296",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 20843": {
+"SourcePort": "20843",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"54830"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 16397": {
+"SourcePort": "16397",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"45350"
+]
+}
+]
+}
+}
+,
+{
+"others enbd-cstatd": {
+"SourcePort": "enbd-cstatd",
+"destination": [
+{
+"DestAddr": "10.22.xxx.xxx",
+"DestPort": [
+"58633"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 24473": {
+"SourcePort": "24473",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"41686"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 40010": {
+"SourcePort": "40010",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"31171"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 10246": {
+"SourcePort": "10246",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 41840": {
+"SourcePort": "41840",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"34453"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 12602": {
+"SourcePort": "12602",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 41686": {
+"SourcePort": "41686",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"24473"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 33517": {
+"SourcePort": "33517",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"14008"
+]
+}
+]
+}
+}
+,
+{
+"bgpd 50902": {
+"SourcePort": "50902",
+"destination": [
+{
+"DestAddr": "172.24.xxx.xxx",
+"DestPort": [
+"bgp"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 19698": {
+"SourcePort": "19698",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"36839"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 64058": {
+"SourcePort": "64058",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"28261"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 41738": {
+"SourcePort": "41738",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 46200": {
+"SourcePort": "46200",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"28017"
+]
+}
+]
+}
+}
+,
+{
+"rsyslogd 61084": {
+"SourcePort": "61084",
+"destination": [
+{
+"DestAddr": "10.56.xxx.xxx",
+"DestPort": [
+"shell"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 33796": {
+"SourcePort": "33796",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"18071"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 36839": {
+"SourcePort": "36839",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"19698"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 17882": {
+"SourcePort": "17882",
+"destination": [
+{
+"DestAddr": "stg-appmesosm001-stg-clouddb512.phonepe.nb6",
+"DestPort": [
+"5050"
+]
+}
+]
+}
+}
+,
+{
+"rsyslogd 61082": {
+"SourcePort": "61082",
+"destination": [
+{
+"DestAddr": "10.56.xxx.xxx",
+"DestPort": [
+"shell"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 28261": {
+"SourcePort": "28261",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"64058"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 37922": {
+"SourcePort": "37922",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"37871"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 65082": {
+"SourcePort": "65082",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 37871": {
+"SourcePort": "37871",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"37922"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 30939": {
+"SourcePort": "30939",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"40430"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 50850": {
+"SourcePort": "50850",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 14008": {
+"SourcePort": "14008",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"33517"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 28017": {
+"SourcePort": "28017",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"46200"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 42798": {
+"SourcePort": "42798",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 31600": {
+"SourcePort": "31600",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"28939"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 12522": {
+"SourcePort": "12522",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"perl 33486": {
+"SourcePort": "33486",
+"destination": [
+{
+"DestAddr": "stg-riemann001-stg-clouddb501.phonepe.nb6",
+"DestPort": [
+"5555"
+]
+}
+]
+}
+}
+,
+{
+"salt-minion 48214": {
+"SourcePort": "48214",
+"destination": [
+{
+"DestAddr": "stg-saltsyndic003-stg-clouddb530.phonepe.nb6",
+"DestPort": [
+"4505"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 16586": {
+"SourcePort": "16586",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 28939": {
+"SourcePort": "28939",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"31600"
+]
+}
+]
+}
+}
+,
+{
+"salt-call 42034": {
+"SourcePort": "42034",
+"destination": [
+{
+"DestAddr": "stg-saltsyndic003-stg-clouddb530.phonepe.nb6",
+"DestPort": [
+"4506"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 45350": {
+"SourcePort": "45350",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"16397"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 41734": {
+"SourcePort": "41734",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"riemann-health 27712": {
+"SourcePort": "27712",
+"destination": [
+{
+"DestAddr": "stg-riemann001-stg-clouddb501.phonepe.nb6",
+"DestPort": [
+"5555"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 30838": {
+"SourcePort": "30838",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"24277"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 42940": {
+"SourcePort": "42940",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"python3 56794": {
+"SourcePort": "56794",
+"destination": [
+{
+"DestAddr": "stg-saltsyndic003-stg-clouddb530.phonepe.nb6",
+"DestPort": [
+"4506"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 27589": {
+"SourcePort": "27589",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"60750"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 18071": {
+"SourcePort": "18071",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"33796"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 14368": {
+"SourcePort": "14368",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 13024": {
+"SourcePort": "13024",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 40430": {
+"SourcePort": "40430",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"30939"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 60750": {
+"SourcePort": "60750",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"27589"
+]
+}
+]
+}
+}
+,
+{
+"bgpd 49498": {
+"SourcePort": "49498",
+"destination": [
+{
+"DestAddr": "172.24.xxx.xxx",
+"DestPort": [
+"bgp"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 24277": {
+"SourcePort": "24277",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"30838"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 56608": {
+"SourcePort": "56608",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"mesos-docker-ex 12866": {
+"SourcePort": "12866",
+"destination": [
+{
+"DestAddr": "stg-mesoss016.phonepe.nb6",
+"DestPort": [
+"enbd-cstatd"
+]
+}
+]
+}
+}
+,
+{
+"mesos-slave 10398": {
+"SourcePort": "10398",
+"destination": [
+{
+"DestAddr": "stg-appmesosm001-stg-clouddb512.phonepe.nb6",
+"DestPort": [
+"2181"
+]
+}
+]
+}
+}
+]
+}
+}
